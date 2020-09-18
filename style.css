@@ -1,16 +1,23 @@
 html {
-  height: 95%;
+  width: auto;
+  height: auto;
   border: 1px solid black;
   margin: 20px;
 }
 
+.konten{}
+
 .badan-kiri {
   height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
 }
 
 .badan-kanan {
   height: auto;
-  float: right;
+  width: 100%;
+  float: left;
 }
 
 .kiri {
@@ -47,6 +54,7 @@ html {
   font-family: arial;
   position: relative;
   justify-content: left;
+  float: right;
 }
 
 .kanan-lancip::before {
