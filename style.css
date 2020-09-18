@@ -1,6 +1,34 @@
-.{
-width: 100px;
-}
 html{
-height: autooo;
+	width: 98%;
+	height: 95%;
+	border: 1px solid black;
+	margin: 1%;
+}
+
+.badan{
+
+	height: 100%;
+}
+
+.kiri{
+  width: 300px;
+  margin: 10px;
+  border: 2px solid black;
+  padding: 20px;
+  font-weight: 900;
+  color: black;
+  font-family: arial;
+  position: relative;
+}
+
+.kiri-lancip::before{
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid black;
+  border-bottom: 10px solid transparent;
+  left: -22px;
+  top: -2px;
 }
